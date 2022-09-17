@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script>
+        var x=0
+        function onion(){
+            document.getElementById("boxShow").innerHTML= document.getElementById("boxShow").innerHTML+"onion........................... 0.05 JD<br>";
+            x=x+0.05
+        }
+        function soup(){
+            document.getElementById("boxShow").innerHTML= document.getElementById("boxShow").innerHTML+"mansaf stoke(shrab).... 1 JD<br>";
+            x=x+1
+
+        }
+        function mansaf(){
+            document.getElementById("boxShow").innerHTML= document.getElementById("boxShow").innerHTML+"mansaf ......................... 3 JD<br>";
+            x=x+3
+        }
+        function cal(){
+            document.getElementById("boxShow").innerHTML= document.getElementById("boxShow").innerHTML+"<hr>"+"your respect is "+x+"JD"+"<br>if you dont have mony it's on house";
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="navCon"><a href="welcom.html">Home</a></div>
+        <div class="navCon"> <a href="aboutUS.html">about US</a></div>
+        <div class="navCon"> <a href="contactus.html"> contactus</a></div>
+        <div class="navCon"> <a href="login.html">Log in</a></div>
+    </div>
+    
+        <div class="contant">
+            <div class="show" id="boxShow">
+                your order<br></div>
+                <button id="mansaf" onclick="mansaf();"><img src="mansaf.jpg" alt="" width="150px" height="150px"></button>
+                <button id="soup" onclick="soup();"><img src="soup.jpg" alt="" width="150px" height="150px"></button>
+                <button id="onion" onclick="onion();"> <img src="onion.jpg" alt="" width="150px" height="150px" ></button>
+                <br>
+                <button type="button" onclick="cal();" > <h1>calculate</h1></button>
+                
+        </div>
+    
+    <center>
+        <div class="foter">
+            <h1 style="color: green;">Abdelrahman for web development</h1>
+        </div>
+    </center>
+</body>
+
+</html>

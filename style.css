@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('mansaf.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    width: 300px;
+    height: 450px;
+    background-color: antiquewhite;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    box-shadow: 10px 10px 75px rgb(241, 231, 174);
+}
+.con1{
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sizeBox{
+    height: 5px;
+    width: 5px;
+}
+#userName{
+    height: 50px;
+    background-color: rgb(202, 226, 226);
+    margin: 30px 0 30px 0;
+    border: none;
+    
+    padding-left: 10px;
+}
+#PassWord{
+    height: 50px;
+    background-color: rgb(202, 235, 235);
+    margin: 0 0 30px 0;
+    border: none;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+#logIn{
+    height: 50px;
+    background-color: rgb(183, 226, 226);
+    margin: 75px 0 20px 0;
+    border: none;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+.iner{
+    height: 50px;
+    background-color: rgb(183, 226, 226);
+    margin: 20px 0 0 0;
+    border: none;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+.radio{
+    padding-left: 30px;
+    color: gray;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    height: 4vh;
+    border: solid 2px black;
+    background-color: rgb(226, 226, 243);
+    box-shadow: 10px 10px 100px rgb(167, 60, 60);
+    display: flex;
+    justify-content: space-around;
+}
+.navCon{
+    padding-top: 10px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 100px red ;
+}
+.navCon:hover{
+    box-shadow: 10px 10px 100px rgb(143, 0, 0) ;
+    
+
+} .nav:hover{
+    box-shadow: 10px 10px 100px rgb(143, 0, 0) ;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contant{
+    width: 100%;
+    height: 90vh;
+    border: black;
+
+}
+.foter{
+    justify-content: center;
+}
+
+.dis{
+    background-color: greenyellow;
+}
+.contant{
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+}
+.show{
+    background-color: rgb(240, 131, 131);
+    width: 450px;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 75px red;
+}
+.m3{
+    padding-left: 150px;
+
+}
+.b2{
+    background-color: rgba(160, 208, 208,0.1);
+}

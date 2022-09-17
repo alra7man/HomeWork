@@ -1,0 +1,23 @@
+.show{
+    background-color: rgb(240, 131, 131);
+    width: 450px;
+    height: 250px;
+    margin: 10px 0 0 10px;
+    border-radius: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 75px red;
+}
+.masterFood{
+    display: flex;
+    flex-direction: row;
+}
+.food{
+    width: 100px;
+    height: 75px;
+}
+
+.masterFood{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+}
